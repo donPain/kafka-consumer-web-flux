@@ -1,8 +1,0 @@
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/service/KijoService.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/utils/OSValidator.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/router/KijoHandler.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/ApiMonitoringEquipmentApplication.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/utils/Environments.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/router/KijoRouter.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/config/KijoKafkaReceiverConfig.java
-/home/eduardo/Documentos/api-monitoring-equipment/src/main/java/com/dagobah/apimonitoringequipment/model/Kijo.java

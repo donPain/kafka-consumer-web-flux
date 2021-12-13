@@ -2,6 +2,7 @@ package com.dagobah.apimonitoringequipment.service;
 
 import com.dagobah.apimonitoringequipment.model.Kijo;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.BufferOverflowStrategy;
 import reactor.core.publisher.Flux;
@@ -16,6 +17,7 @@ public class KijoService {
 
     final KafkaReceiver<String, Kijo> kafkaReceiver;
 
+    @Autowired
     public KijoService(KafkaReceiver<String, Kijo> kafkaReceiver) {
         this.kafkaReceiver = kafkaReceiver;
     }

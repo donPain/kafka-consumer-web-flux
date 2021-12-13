@@ -9,17 +9,18 @@ import org.springframework.web.reactive.function.server.RouterFunctions;
 import static org.springframework.web.reactive.function.server.RequestPredicates.GET;
 
 @Configuration
-public class KijoRouter {
+public class Router {
 
         /**
          * The router configuration for the kijo handler.
-         * @param kijoHandler
+         * @param handler
          * @return
          */
 @Bean
-        public RouterFunction<?> kijoRoute(KijoHandler kijoHandler){
+        public RouterFunction<?> kijoRoute(Handler handler){
         return RouterFunctions
-                .route(GET("/getKijo/{clientId}/{equipmentId}"),kijoHandler::streamKijo);
+                .route(GET("/getKijo/{clientId}/{equipmentId}"), handler::streamKijo)
+                .andRoute(GET("/getEquipmentStatus/{clientId}/{equipmentId}"), handler::streamEquipmentStatus);
 }
 
 }
