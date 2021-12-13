@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.dagobah.apimonitoringequipment.ApiMonitoringEquipmentApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.155 s <<< FAILURE! - in com.dagobah.apimonitoringequipment.ApiMonitoringEquipmentApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/CommonErrorHandler
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.listener.CommonErrorHandler
+
