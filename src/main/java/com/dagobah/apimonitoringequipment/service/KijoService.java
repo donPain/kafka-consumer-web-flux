@@ -35,4 +35,5 @@ public class KijoService {
     public Flux<Kijo> streamKijo(String clientId, String equipmentId){
         return kijoStream.filter(kijo -> kijo.getKijoClientId().equals(clientId) && kijo.getKijoEquipmentId().equals(equipmentId));
     }
+
 }

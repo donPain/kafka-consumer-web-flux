@@ -2,7 +2,16 @@ package com.dagobah.apimonitoringequipment.model;
 
 public class EquipmentStatus {
 
+
+
+    private String clientId;
+    private String equipmentId;
+    private String equipmentStatus;
+    private String since;
+
     public EquipmentStatus() {}
+
+    public String getEquipmentId() { return equipmentId; }
 
     public String getClientId() {
         return clientId;
@@ -10,16 +19,6 @@ public class EquipmentStatus {
 
     public void setClientId(String clientId) {
         this.clientId = clientId;
-    }
-
-    private String clientId;
-    private String equipmentId;
-    private String equipmentStatus;
-    private String since;
-
-
-    public String getEquipmentId() {
-        return equipmentId;
     }
 
     public void setEquipmentId(String equipmentId) {
