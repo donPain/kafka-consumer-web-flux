@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.dagobah.api-monitoring-equipment' is invalid and this project uses 'com.dagobah.apimonitoringequipment' instead.
+* The original package name 'com.dagobah.api-monitoring-equipment' is invalid and this project uses 'com.dagobah.equipmentmonitoringapi' instead.
 
 # Getting Started
 
